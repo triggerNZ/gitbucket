@@ -6,7 +6,7 @@ class StringUtilSpec extends FunSpec {
 
   describe("urlEncode") {
     it("should encode whitespace to %20") {
-      val encoded = StringUtil.urlEncode("aa bb")
+      val encoded = StringUtil.urlEncode("")
       assert(encoded == "aa%20bb")
     }
   }
